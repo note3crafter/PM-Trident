@@ -1,4 +1,4 @@
 # Trident
-This Plugin Aktivate the Trident in PMMP and Altay!
+This Plugin Activate the Trident in PMMP and Altay!
 
 
