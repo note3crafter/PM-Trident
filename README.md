@@ -1,5 +1,6 @@
 # Trident
-This Plugin Activate the Trident in PMMP and Altay!
+Add Trident to Server
+For PocketMine-MP API4
 
 # Credits to
 https://github.com/CortexPE

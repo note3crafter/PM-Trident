@@ -1,12 +1,11 @@
 name: Trident
 main: TheNote\Main
-version: 1.0.0
+version: 2.0.0
 api:
-  - 3.0.0
   - 4.0.0
-load: STARTUP
 author: TheNote
+mcpe-protocol: 554
 authors:
-  #Special Tanks vor The Code!
+  #Thanks to the old Code!
   - CortexPE
-description: Aktivate the Trident on pmmp or Altay.
+description: Add Trident

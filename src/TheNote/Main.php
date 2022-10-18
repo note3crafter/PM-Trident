@@ -10,12 +10,7 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase
 {
-
-    public static function getInstance(): Main
-    {
-        return self::$instance;
-    }
-    public function onLoad()
+    public function onLoad() :void
     {
         ItemManager::init();
         EntityManager::init();
