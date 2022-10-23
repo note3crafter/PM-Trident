@@ -1,5 +1,5 @@
-name: PM-Trident
-main: TheNote\Main
+name: Trident
+main: TheNote\PMTrident\Main
 version: 2.0.0
 api:
   - 4.0.0
