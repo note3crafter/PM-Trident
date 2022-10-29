@@ -4,6 +4,7 @@ declare(strict_types = 1);
 
 namespace TheNote\PMTrident\item;
 
+use pocketmine\block\Block;
 use pocketmine\entity\Entity;
 use pocketmine\entity\Location;
 use pocketmine\event\entity\ProjectileLaunchEvent;
@@ -65,6 +66,14 @@ class Trident extends Tool implements Releasable
     public function getAttackPoints(): int
     {
         return 8;
+    }
+
+    public function onDestroyBlock(Block $block): bool
+    {
+        if(!$block->getBreakInfo()->breaksInstantly()){
+            return $this->applyDamage(2);
+        }
+        return false;
     }
 
     public function onAttackEntity(Entity $victim): bool
